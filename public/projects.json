@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Fixit Repair ",
+        "description": "This Project is Based on a Manufacturer. This Project is Full-Stack Website. Admin can add new products and manage all users on this project . Admin can make admin in users on this project. User can login with email and password, google on this project.",
+        "photo": [
+            "https://i.ibb.co/s9WRC9r/fixit-1.png",
+            "https://i.ibb.co/tMMrgk4/fixit-2.png",
+            "https://i.ibb.co/PwLT8SZ/fixit-4.png",
+            "https://i.ibb.co/984Nr20/fixit-5.png",
+            "https://i.ibb.co/RP1BWMW/fixit-6.png",
+            "https://i.ibb.co/PFGwXdH/fixit-7.png",
+            "https://i.ibb.co/NmB2FMj/fixit-8.png",
+            "https://i.ibb.co/0snqj1J/fixit-9.png",
+            "https://i.ibb.co/Gc5Ftvq/fixit-10.png"
+        ],
+        "demoSite": "https://fixit-repair.netlify.app/",
+        "technologies": [
+            "ReactJS",
+            "JavaScript",
+            "React-Router-Dom",
+            "Firebase",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "Mongoose",
+            "HTML5",
+            "CSS3",
+            "TailwindCSS",
+            "DaisyUI",
+            "JWT"
+        ]
+    },
+    {
+        "name": "Fashion Warehouse Management",
+        "description": "This Project is Based on a Manufacturer. This Project is Full-Stack Website. Admin can add new products and manage all users on this project . Admin can make admin in users on this project. User can login with email and password, google on this project.",
+        "photo": [
+            "https://i.ibb.co/KzGyHNP/fashion-1.png",
+            "https://i.ibb.co/tQqVS0d/fashion-2.png",
+            "https://i.ibb.co/LtzjcwL/fashion-3.png",
+            "https://i.ibb.co/V9MrCV8/fashion-4.png",
+            "https://i.ibb.co/GV8NcfG/fashion-5.png"
+        ],
+        "demoSite": "https://heroic-twilight-8f0cb5.netlify.app/",
+        "technologies": [
+            "ReactJS",
+            "JavaScript",
+            "React-Router-Dom",
+            "Firebase",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "Mongoose",
+            "HTML5",
+            "CSS3",
+            "TailwindCSS",
+            "DaisyUI",
+            "JWT"
+        ]
+    },
+    {
+        "name": "Bus Services",
+        "description": "This Project is Based on a Manufacturer. This Project is Full-Stack Website. Admin can add new products and manage all users on this project . Admin can make admin in users on this project. User can login with email and password, google on this project.",
+        "photo": [
+            "https://i.ibb.co/tp5dRFn/pic-bus03.png",
+            "https://i.ibb.co/PZ9Ybxr/pic-bus04.png",
+            "https://i.ibb.co/s1H7H9M/pic-bus05.png",
+            "https://i.ibb.co/cvkSxhq/pic-bus-01.png",
+            "https://i.ibb.co/rxK3f3R/pic-bus02.png"
+        ],
+        "demoSite": "https://busservices.netlify.app/",
+        "technologies": [
+            "ReactJS",
+            "JavaScript",
+            "React-Router-Dom",
+            "Firebase",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "Mongoose",
+            "HTML5",
+            "CSS3",
+            "TailwindCSS",
+            "DaisyUI",
+            "JWT"
+        ]
+    }
+]
