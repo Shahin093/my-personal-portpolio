@@ -4,6 +4,7 @@ import './Projects.css';
 import service from '../../images/fixit-service.PNG';
 import { Link } from 'react-router-dom';
 import Project from '../Project/Project';
+
 const Projects = ({ Projects }) => {
     // console.log(Projects.photo)
     useEffect(() => {
@@ -11,6 +12,7 @@ const Projects = ({ Projects }) => {
             duration: 2000,
         })
     }, []);
+    // "This Project is Based on a Manufacturer. This Project is Full-Stack Website. Admin can add new products and manage all users on this project . Admin can make admin in users on this project. User can login with email and password, google on this project.", 
     return (
         <div data-aos="fade-up" class="mt-10 container" >
             {/* <h2 className='text-center'>MY BEST PROJECTS</h2> */}
@@ -28,7 +30,15 @@ const Projects = ({ Projects }) => {
                 </div>
                 <div class="card-body">
                     <h5 class="card-title  ">{Projects?.name}</h5>
-                    <p class="card-text">{Projects?.description}</p>
+                    {/* <p class="card-text">{Projects?.description}</p> */}
+                    <ul className=''>
+                        {
+                            Projects?.description.map(des =>
+                                <li className='desli card-text'>
+                                    {des}
+                                </li>)
+                        }
+                    </ul>
                     <div class="btn-group btn-group-toggle  grid grid-cols-3 " data-toggle="buttons">
                         <label class="btn btn-secondary active"> Technology :
                         </label>
@@ -48,6 +58,7 @@ const Projects = ({ Projects }) => {
                     <div>
                         {/* <Link className="btn btn-outline-info btn-md mt-3 btn-primary" to={`/project/${Projects?._id}`} > Details Project</Link> */}
                         <a className="btn btn-outline-info btn-md mt-3 btn-primary" href={Projects?.demoSite} target="blank"><span>Live Demo</span></a>
+                        {/* <Link className="btn btn-outline-info btn-md mt-3 btn-primary" to={Projects?.detailsSite} target="blank"><span>Details</span></Link> */}
                     </div>
 
                 </div>

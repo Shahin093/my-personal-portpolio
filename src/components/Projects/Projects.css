@@ -3,6 +3,24 @@
     height: 300px; */
 }
 
+/* bullet points projects description design  */
+.desli {
+    margin: 3px 0;
+    padding: 2%;
+    height: 30px;
+    /* width: 28%; */
+    line-height: 1.2%;
+    list-style: none;
+    border-radius: 5% 0 0 5%;
+    box-shadow: -10px 2px 4px 0 chartreuse;
+    color: cornflowerblue;
+}
+
+.desli:hover {
+    box-shadow: -10px 2px 4px 0 blue !important;
+    font-size: 1.1em;
+}
+
 @keyframes display {
     0% {
         transform: translateX(300px);

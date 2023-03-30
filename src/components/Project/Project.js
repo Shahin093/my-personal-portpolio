@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Projects from '../Projects/Projects';
 import Aos from 'aos';
+import { Link } from 'react-router-dom';
 const Project = () => {
     useEffect(() => {
         Aos.init({
@@ -23,6 +24,7 @@ const Project = () => {
                 {projects.map(project =>
                     <Projects Projects={project}></Projects>
                 )}
+
             </div>
         </div>
     );

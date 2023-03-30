@@ -38,7 +38,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<HomePage></HomePage>}></Route>
-        {/* <Route path='/project/:id' element={<ProjectsDetail ></ProjectsDetail>}></Route> */}
+        <Route path='/project/fixit' element={<ProjectsDetail ></ProjectsDetail>}></Route>
         {/* <Route path='/projects' element={<Project></Project>}></Route> */}
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/about' element={<About></About>}></Route>
